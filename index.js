@@ -34,7 +34,7 @@ function metricsByEndpoint_afterResponse(req, res, userContext, events, done) {
   const baseUrl = url.parse(req.url).path;
 
   let histoName = req.name ?
-        `${baseUrl} (${req.name})` :
+        `${req.name}` :
         `${baseUrl}`;
   let counterName = histoName;
 
