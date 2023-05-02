@@ -1,3 +1,7 @@
+# MOVED
+
+This plugin's code now lives in the main monorepo: https://github.com/artilleryio/artillery/tree/main/packages/artillery-plugin-metrics-by-endpoint
+
 # Purpose
 
 Use this plugin to get a per-endpoint breakdown of latency and response codes in your Artillery HTTP tests.
